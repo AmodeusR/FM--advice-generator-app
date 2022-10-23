@@ -18,6 +18,9 @@ module.exports = {
         neogreen: {
           300: "hsl(150, 100%, 66%)"
         }
+      },
+      letterSpacing: {
+        widest: ".5em"
       }
     },
   },
