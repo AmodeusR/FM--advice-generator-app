@@ -21,6 +21,9 @@ module.exports = {
       },
       letterSpacing: {
         widest: ".5em"
+      },
+      boxShadow: {
+        hoverShadow: "0 0 45px 0 rgba(0, 0, 0, 0.3)"
       }
     },
   },
