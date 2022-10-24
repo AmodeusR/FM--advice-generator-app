@@ -16,7 +16,11 @@ function App() {
 
   const fetchAdvice = async () => {
     setFadeOut(true);
-    const fetchFunction = await axios.get("https://api.adviceslip.com/advice");
+    const fetchFunction = await axios.get("https://api.adviceslip.com/advice", {
+      params: {
+        t: new Date().getTime()
+      }
+    });
     const fetchedAdvice = fetchFunction.data;
 
     setTimeout(async () => {
@@ -32,8 +36,13 @@ function App() {
 
     const fetchAdvice = async () => {
       const fetchFunction = await axios.get(
-        "https://api.adviceslip.com/advice"
+        "https://api.adviceslip.com/advice", {
+          params: {
+            t: new Date().getTime()
+          }
+        }
       );
+
       const fetchedAdvice = fetchFunction.data;
 
       setAdvice(fetchedAdvice.slip);
