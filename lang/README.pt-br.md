@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD033 -->
-<h1 align="center">Frontend Mentor — App Gerador de Conselhos</h1>
+<h1 align="center">Frontend Mentor – App Gerador de Conselhos</h1>
 
 <img src="../page-models/hover.png" alt="" />
 
