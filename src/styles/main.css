@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+.link {
+  @apply font-bold hover:text-neogreen-300 transition-colors text-sm
+}

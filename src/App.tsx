@@ -52,13 +52,14 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-grayblue-700 h-screen flex items-center justify-center">
+    <div className="bg-grayblue-700 h-screen flex items-center justify-center relative">
       <div className="w-11/12">
         <AdviceCard
           advice={advice}
           fadeOut={fadeOut}
           fetchAdvice={fetchAdvice}
         />{" "}
+        <footer className="text-grayblue-200 absolute bottom-2 text-center left-0 right-0">Challenge by <a className="link" href="https://www.frontendmentor.io/">Frontend Mentor</a>. Coded by <a className="link" href="https://github.com/amodeusr">Amodeus R.</a>.</footer>
       </div>
     </div>
   );

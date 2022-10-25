@@ -21,7 +21,7 @@ export function AdviceCard({
   };
 
   return (
-    <div className="bg-grayblue-400 mx-auto p-8 rounded-xl max-w-lg min-h-[18rem] flex flex-col justify-between items-center gap-6 relative">
+    <div className="bg-grayblue-400 mx-auto p-8 rounded-xl max-w-lg min-h-[18rem] flex flex-col justify-between items-center gap-6 relative font-bold">
       <span className="text-neogreen-300 uppercase text-xs tracking-widest">
         Advice #
         <span
