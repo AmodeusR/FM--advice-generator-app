@@ -4,6 +4,8 @@ export const useWindowWidthSize = () => {
   const [windowWidthSize, setWindowWidthSize] = useState(0);
 
   useEffect(() => {
+    setWindowWidthSize(window.innerWidth);
+
     const watchResize = () => {
       setWindowWidthSize(window.innerWidth);
     }
