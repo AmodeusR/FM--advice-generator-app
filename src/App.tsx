@@ -1,6 +1,3 @@
-// Necessary line of code so vite-plugin-svgr works with Typescript
-/// <reference types="vite-plugin-svgr/client" />
-
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { AdviceCard } from "./components/AdviceCard";
