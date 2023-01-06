@@ -1,7 +1,9 @@
 <!-- markdownlint-disable MD033 -->
 <h1 align="center">Frontend Mentor – Advice Generator App</h1>
 
-<img src="./page-models/hover.png" alt="" />
+<p align="center">
+  <img src="./page-models/hover.png" alt="" />
+</p>
 
 <p align="center">This is a solution to Frontend Mentor's <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db"> Advice Generator App Challenge</a>.</p>
 
